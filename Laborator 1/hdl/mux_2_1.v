@@ -1,0 +1,27 @@
+////////////////////////////////////////////////////////////////////////////////
+// Nume modul: mux2_1
+// Autor: Stefan Gheorghe
+// Descriere: 
+//   Acest modul implementeaza un multiplexor 2:1.
+//
+// Modificari:
+//   01/12/2023 | Stefan Gheorghe | Varianta initiala
+//
+////////////////////////////////////////////////////////////////////////////////
+
+
+module mux_2_1 (
+    input  a_i,   // intrarea a
+    input  b_i,   // intrarea b
+    input  s_i,   // intrarea c
+    output y_o    // iesirea y
+);
+
+// Scrieti codul mai jos pentru rezolvarea laboratorului
+assign y_o = (~s_i & a_i) | (s_i & b_i);
+
+
+endmodule
+
+
+
