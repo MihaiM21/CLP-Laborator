@@ -34,6 +34,7 @@ cpu CPU_INST(
 
 // Preincarcati memoria de instructiuni a procesorului cu programul din laborator
 
+
 // Folosind un bloc "initial" initializati memoria folosind fisierul data.memh
 initial begin
     @(negedge conexiune_rst_n);
